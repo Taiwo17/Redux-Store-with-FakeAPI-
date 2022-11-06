@@ -33,7 +33,7 @@ function Cart() {
             )
           })}
         </div>
-        <div style={{ marginLeft: '30px' }}>
+        <div style={{ alignSelf: 'flex-end', marginLeft: '30px' }}>
           <Total />
         </div>
       </div>

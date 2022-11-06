@@ -15,8 +15,8 @@ function Total() {
   return (
     <div>
       <p>
-        Total: ({getTotal().totalQuantity} units) : &nbsp;{' '}
-        <strong>${getTotal().totalPrice} </strong>
+        Total: ({getTotal().totalQuantity} units) : &nbsp;
+        <strong>${getTotal().totalPrice}</strong>
       </p>
     </div>
   )
